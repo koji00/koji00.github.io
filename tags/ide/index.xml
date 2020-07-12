@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ide on koji00 - NCMinh</title>
+    <link>https://koji00.github.io/tags/ide/</link>
+    <description>Recent content in ide on koji00 - NCMinh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 26 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://koji00.github.io/tags/ide/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VSCodium [Visual Studio Code alternative]</title>
+      <link>https://koji00.github.io/blog/vscodium/</link>
+      <pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://koji00.github.io/blog/vscodium/</guid>
+      <description>VSCodium là một repository bao gồm các scripts để build VS Code, tự động loại bỏ branding/telemetry/licensing/tracking của Microsoft.
+Tại sao không tạo cho mình một bản &amp;ldquo;clean&amp;rdquo; build, mà không có sự nhúng tay của Microsoft nhỉ.
+Repo: https://github.com/VSCodium/vscodium
+ When we speak of &amp;ldquo;free software&amp;rdquo;, we&amp;rsquo;re talking about freedom, not price.
+ </description>
+    </item>
+    
+  </channel>
+</rss>

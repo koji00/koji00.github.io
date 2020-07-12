@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>download on koji00 - NCMinh</title>
+    <link>https://koji00.github.io/tags/download/</link>
+    <description>Recent content in download on koji00 - NCMinh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://koji00.github.io/tags/download/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Persepolis Download Manager | IDM alternative</title>
+      <link>https://koji00.github.io/blog/persepolis/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://koji00.github.io/blog/persepolis/</guid>
+      <description>Persepolis là gì? Persepolis là một Download Manager &amp;amp; là GUI cho aria2. Persepolis được viết bằng Python và là Free Open Source Software.
+Hỗ trợ: GNU/Linux Distributions, BSDs, macOS và Microsoft Windows.
+Feutures:  GUI cho aria2 Tải về đa luồng Tải theo lịch Tải theo hàng chờ Tìm và tải video từ Youtube, Vimeo, DailyMotion, v.v (dựa trên youtube-dl) Có tiện ích tích hợp cho trình duyệt  </description>
+    </item>
+    
+  </channel>
+</rss>

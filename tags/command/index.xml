@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>command on koji00 - NCMinh</title>
+    <link>https://koji00.github.io/tags/command/</link>
+    <description>Recent content in command on koji00 - NCMinh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://koji00.github.io/tags/command/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Speedtest-CLI | Speedtest.net command line interface</title>
+      <link>https://koji00.github.io/blog/speedtest-cli/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://koji00.github.io/blog/speedtest-cli/</guid>
+      <description>Chắc hẳn mọi người đã quá quen với Speedtest.net khi muốn kiểm tra tốc độ Internet rồi nhỉ?
+Hôm nay mình sẽ giới thiệu giao diện dòng lệnh của công cụ này speedtest-cli
+Yêu cầu: Cần có python &amp;gt;2.4
+Cài đặt:  với pip: pip install speedtest-cli với git: git clone https://github.com/sivel/speedtest-cli.git cd speedtest-cli python setup.py install    Gợi ý: nên tìm hiểu thêm về python, pip, các lệnh với file, thư mục và git</description>
+    </item>
+    
+    <item>
+      <title>Viết tắt command trên Linux</title>
+      <link>https://koji00.github.io/blog/alias/</link>
+      <pubDate>Sat, 28 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://koji00.github.io/blog/alias/</guid>
+      <description>Viết tắt command trên Linux? Bạn không đọc nhầm đâu Đã bao giờ thử dùng Linux chưa? Bạn thấy các câu lệnh thật dài dòng khó nhớ?
+Mình sẽ hướng dẫn cách viết tắt các câu lệnh dài (hoặc ngắn nếu thích :D)
+  Đầu tiên bạn cần mở một text editor (vim/nano/vscodium/gedit/kate/emacs/v.v.) và truy cập đến file .bashrc (file cấu hình của bash, nếu dùng bash shell) hoặc .</description>
+    </item>
+    
+  </channel>
+</rss>

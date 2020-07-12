@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on koji00 - NCMinh</title>
+    <link>https://koji00.github.io/categories/linux/</link>
+    <description>Recent content in linux on koji00 - NCMinh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 30 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://koji00.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>spicetify-cli | Thay đổi giao diện Spotify của bạn</title>
+      <link>https://koji00.github.io/blog/spicetify-cli/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://koji00.github.io/blog/spicetify-cli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>efibootmgr - Trình quản lí UEFI BOOT ENTRY trên Linux</title>
+      <link>https://koji00.github.io/blog/efibootmgr/</link>
+      <pubDate>Thu, 05 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://koji00.github.io/blog/efibootmgr/</guid>
+      <description>efibootmgr có thể được sử dụng cực dễ chỉ bằng vài dòng lệnh
+Repo: https://github.com/rhboot/efibootmgr
+Cách sử dụng:   Tất nhiên là phải cài đặt rồi (nếu chưa có sẵn):
+ Ví dụ trên Arch based: pacman -S efibootmgr    Xem manual nào:
+  efibootmgr -h   hoặc chi tiết hơn: man efibootmgr
+    Xem thông tin chi tiết: efibootmgr -v
+  Thêm entry:</description>
+    </item>
+    
+    <item>
+      <title>Persepolis Download Manager | IDM alternative</title>
+      <link>https://koji00.github.io/blog/persepolis/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://koji00.github.io/blog/persepolis/</guid>
+      <description>Persepolis là gì? Persepolis là một Download Manager &amp;amp; là GUI cho aria2. Persepolis được viết bằng Python và là Free Open Source Software.
+Hỗ trợ: GNU/Linux Distributions, BSDs, macOS và Microsoft Windows.
+Feutures:  GUI cho aria2 Tải về đa luồng Tải theo lịch Tải theo hàng chờ Tìm và tải video từ Youtube, Vimeo, DailyMotion, v.v (dựa trên youtube-dl) Có tiện ích tích hợp cho trình duyệt  </description>
+    </item>
+    
+    <item>
+      <title>CES 2020 | Automotive Grade Linux</title>
+      <link>https://koji00.github.io/blog/agl/</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://koji00.github.io/blog/agl/</guid>
+      <description>Automotive Grade Linux (AGL) là gì?   Automotive Grade Linux (AGL) là một dự án mã nguồn mở nhằm liên kết giữa nhà sản xuất, nhà cung cấp và các công ty công nghệ (có ông FPT nhà mình nữa) với mục tiêu đẩy nhanh quá trình phát triển và áp dụng nền tảng phần mềm hòa toàn mở cho xe hơi.
+  Với việc lấy Linux làm cốt lõi, AGL đang phát triển một nền tảng mở để đưa ra các tiêu chuẩn công nghệ cho phép đẩy nhanh tốc độ phát triển tính năng và công nghệ mới trong tương lai.</description>
+    </item>
+    
+    <item>
+      <title>Speedtest-CLI | Speedtest.net command line interface</title>
+      <link>https://koji00.github.io/blog/speedtest-cli/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://koji00.github.io/blog/speedtest-cli/</guid>
+      <description>Chắc hẳn mọi người đã quá quen với Speedtest.net khi muốn kiểm tra tốc độ Internet rồi nhỉ?
+Hôm nay mình sẽ giới thiệu giao diện dòng lệnh của công cụ này speedtest-cli
+Yêu cầu: Cần có python &amp;gt;2.4
+Cài đặt:  với pip: pip install speedtest-cli với git: git clone https://github.com/sivel/speedtest-cli.git cd speedtest-cli python setup.py install    Gợi ý: nên tìm hiểu thêm về python, pip, các lệnh với file, thư mục và git</description>
+    </item>
+    
+    <item>
+      <title>Viết tắt command trên Linux</title>
+      <link>https://koji00.github.io/blog/alias/</link>
+      <pubDate>Sat, 28 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://koji00.github.io/blog/alias/</guid>
+      <description>Viết tắt command trên Linux? Bạn không đọc nhầm đâu Đã bao giờ thử dùng Linux chưa? Bạn thấy các câu lệnh thật dài dòng khó nhớ?
+Mình sẽ hướng dẫn cách viết tắt các câu lệnh dài (hoặc ngắn nếu thích :D)
+  Đầu tiên bạn cần mở một text editor (vim/nano/vscodium/gedit/kate/emacs/v.v.) và truy cập đến file .bashrc (file cấu hình của bash, nếu dùng bash shell) hoặc .</description>
+    </item>
+    
+    <item>
+      <title>VSCodium [Visual Studio Code alternative]</title>
+      <link>https://koji00.github.io/blog/vscodium/</link>
+      <pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://koji00.github.io/blog/vscodium/</guid>
+      <description>VSCodium là một repository bao gồm các scripts để build VS Code, tự động loại bỏ branding/telemetry/licensing/tracking của Microsoft.
+Tại sao không tạo cho mình một bản &amp;ldquo;clean&amp;rdquo; build, mà không có sự nhúng tay của Microsoft nhỉ.
+Repo: https://github.com/VSCodium/vscodium
+ When we speak of &amp;ldquo;free software&amp;rdquo;, we&amp;rsquo;re talking about freedom, not price.
+ </description>
+    </item>
+    
+  </channel>
+</rss>

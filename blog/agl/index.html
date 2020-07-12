@@ -1,0 +1,607 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+<title>CES 2020 | Automotive Grade Linux - koji00 - NCMinh</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png?v=1">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png?v=1">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=1">
+  <link rel="manifest" href="/favicon/site.webmanifest?v=1">
+  
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg?v=1" color="#ffffff">
+    <link rel="shortcut icon" href="/favicon/favicon.ico?v=1">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml?v=1">
+  
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+<meta name="generator" content="Hugo 0.73.0" /><meta itemprop="name" content="CES 2020 | Automotive Grade Linux">
+<meta itemprop="description" content="Mazda CX-30, Toyota RAV4, 20&#43; demos dựa trên Automotive Grade Linux đã xuất hiện tại CES 2020">
+<meta itemprop="datePublished" content="2020-01-06T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-01-06T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="404">
+<meta itemprop="image" content="https://koji00.github.io/img/2020/agl/1.jpg">
+
+
+
+<meta itemprop="keywords" content="ces2022,iot,vehicle,agl," /><meta property="og:title" content="CES 2020 | Automotive Grade Linux" />
+<meta property="og:description" content="Mazda CX-30, Toyota RAV4, 20&#43; demos dựa trên Automotive Grade Linux đã xuất hiện tại CES 2020" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://koji00.github.io/blog/agl/" />
+<meta property="og:image" content="https://koji00.github.io/img/2020/agl/1.jpg" />
+<meta property="article:published_time" content="2020-01-06T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-01-06T00:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://koji00.github.io/img/2020/agl/1.jpg"/>
+
+<meta name="twitter:title" content="CES 2020 | Automotive Grade Linux"/>
+<meta name="twitter:description" content="Mazda CX-30, Toyota RAV4, 20&#43; demos dựa trên Automotive Grade Linux đã xuất hiện tại CES 2020"/>
+<link rel="stylesheet" href="/css/bundle.min.5830bc1123d84ab2fd1228f30b4423e7c60a2681dd569b64027ac8649faeb044.css" integrity="sha256-WDC8ESPYSrL9EijzC0Qj58YKJoHdVptkAnrIZJ&#43;usEQ="><link rel="stylesheet" href="/css/add-on.css">
+</head>
+
+  <body>
+    
+
+<header id="site-header">
+  <nav id="site-nav">
+    <h1 class="nav-title">
+      <a href="/" class="nav">
+        
+          
+            bờlốc
+          
+        
+      </a>
+    </h1>
+    <menu id="site-nav-menu" class="flyout-menu menu">
+      
+        
+          
+          
+            <a href="/" class="nav link"><i class='fa fa-home'></i> nhà tui</a>
+          
+        
+      
+        
+          
+          
+            <a href="/about/" class="nav link"><i class='far fa-id-card'></i> tui là ai?</a>
+          
+        
+      
+        
+          
+          
+            <a href="/blog/" class="nav link"><i class='far fa-newspaper'></i> bờlốc</a>
+          
+        
+      
+      <a href="#share-menu" class="nav share-toggle"><i class="fas fa-share-alt">&nbsp;</i>Share</a>
+      <a href="#search-input" class="nav search-toggle"><i class="fas fa-search">&nbsp;</i>Search</a>
+    </menu>
+    <a href="#search-input" class="nav search-toggle"><i class="fas fa-search fa-2x">&nbsp;</i></a>
+    <a href="#share-menu" class="nav share-toggle"><i class="fas fa-share-alt fa-2x">&nbsp;</i></a>
+    
+    <a href="#site-nav" class="nav nav-toggle"><i class="fas fa-bars fa-2x"></i></a>
+  </nav>
+  <menu id="search" class="menu"><input id="search-input" class="search-input menu"></input><div id="search-results" class="search-results menu"></div></menu>
+  
+  
+    <menu id="share-menu" class="flyout-menu menu">
+      <h1>Share Post</h1>
+      
+
+
+
+
+  
+    
+    <a href="//twitter.com/share?text=CES%202020%20%7c%20Automotive%20Grade%20Linux&amp;url=https%3a%2f%2fkoji00.github.io%2fblog%2fagl%2f" target="_blank" rel="noopener" class="nav share-btn twitter">
+        <i class="fab fa-twitter"></i><p>&nbsp;Twitter</p>
+      </a>
+  
+
+  
+      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fkoji00.github.io%2fblog%2fagl%2f" target="_blank" rel="noopener" class="nav share-btn facebook">
+        <i class="fab fa-facebook"></i><p>&nbsp;Facebook</p>
+        </a>
+  
+
+  
+    <a href="//www.reddit.com/submit?url=https%3a%2f%2fkoji00.github.io%2fblog%2fagl%2f&amp;title=CES%202020%20%7c%20Automotive%20Grade%20Linux" target="_blank" rel="noopener" class="nav share-btn reddit">
+          <i class="fab fa-reddit-alien"></i><p>&nbsp;Reddit</p>
+        </a>
+  
+
+  
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fkoji00.github.io%2fblog%2fagl%2f&amp;title=CES%202020%20%7c%20Automotive%20Grade%20Linux" target="_blank" rel="noopener" class="nav share-btn linkedin">
+            <i class="fab fa-linkedin"></i><p>&nbsp;LinkedIn</p>
+          </a>
+  
+
+  
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fkoji00.github.io%2fblog%2fagl%2f&amp;description=CES%202020%20%7c%20Automotive%20Grade%20Linux" target="_blank" rel="noopener" class="nav share-btn pinterest">
+          <i class="fab fa-pinterest-p"></i><p>&nbsp;Pinterest</p>
+        </a>
+  
+
+  
+        <a href="mailto:?subject=Check%20out%20this%20post%20by koji00&amp;body=https%3a%2f%2fkoji00.github.io%2fblog%2fagl%2f" target="_blank" class="nav share-btn email" data-proofer-ignore>
+          <i class="fas fa-envelope"></i><p>&nbsp;Email</p>
+        </a>
+  
+
+
+    </menu>
+  
+</header>
+
+    <div id="wrapper">
+      <section id="site-intro" >
+  <a href="/"><img src="https://koji00.github.io/img/main/logo.png" class="circle" width="" alt="" /></a>
+  <header>
+    <h1>koji00 - N.C.Minh</h1>
+  </header>
+  <main>
+    <p>just another blog by <a href='/about/'>me</a>.</p>
+  </main>
+  
+    <footer>
+      <ul class="socnet-icons">
+        
+
+        <li><a href="//github.com/streetsamurai00mi" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+<li><a href="//gitlab.com/streetsamurai00mi" target="_blank" rel="noopener" title="GitLab" class="fab fa-gitlab"></a></li>
+
+<li><a href="//bitbucket.com/streetsamurai00mi" target="_blank" rel="noopener" title="Bitbucket" class="fab fa-bitbucket"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//facebook.com/iam.minhnc" target="_blank" rel="noopener" title="Facebook" class="fab fa-facebook"></a></li>
+<li><a href="//reddit.com/user/streetsamurai00mi" target="_blank" rel="noopener" title="Reddit" class="fab fa-reddit"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//telegram.me/streetsamurai00mi" target="_blank" rel="noopener" title="telegram" class="fab fa-telegram"></a></li>
+
+
+
+
+
+
+<li><a href="mailto:iam.minhnc@outlook.com" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+    </footer>
+  
+</section>
+
+      <main id="site-main">
+        
+  <article class="post">
+    <header>
+  <div class="title">
+    
+      <h2><a href="/blog/agl/">CES 2020 | Automotive Grade Linux</a></h2>
+    
+    
+      <p>Mazda CX-30, Toyota RAV4, 20&#43; demos dựa trên Automotive Grade Linux đã xuất hiện tại CES 2020</p>
+    
+  </div>
+  <div class="meta">
+    <time class="published" datetime="2020-01-06 00:00:00 &#43;0000 UTC">
+      2020-01-06
+    </time>
+    <span class="author">koji00</span>
+    
+      <p>Ngô Công Minh</p>
+    
+  </div>
+</header>
+
+    <section id="socnet-share">
+      
+
+
+
+
+  
+    
+    <a href="//twitter.com/share?text=CES%202020%20%7c%20Automotive%20Grade%20Linux&amp;url=https%3a%2f%2fkoji00.github.io%2fblog%2fagl%2f" target="_blank" rel="noopener" class="nav share-btn twitter">
+        <i class="fab fa-twitter"></i><p>&nbsp;Twitter</p>
+      </a>
+  
+
+  
+      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fkoji00.github.io%2fblog%2fagl%2f" target="_blank" rel="noopener" class="nav share-btn facebook">
+        <i class="fab fa-facebook"></i><p>&nbsp;Facebook</p>
+        </a>
+  
+
+  
+    <a href="//www.reddit.com/submit?url=https%3a%2f%2fkoji00.github.io%2fblog%2fagl%2f&amp;title=CES%202020%20%7c%20Automotive%20Grade%20Linux" target="_blank" rel="noopener" class="nav share-btn reddit">
+          <i class="fab fa-reddit-alien"></i><p>&nbsp;Reddit</p>
+        </a>
+  
+
+  
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fkoji00.github.io%2fblog%2fagl%2f&amp;title=CES%202020%20%7c%20Automotive%20Grade%20Linux" target="_blank" rel="noopener" class="nav share-btn linkedin">
+            <i class="fab fa-linkedin"></i><p>&nbsp;LinkedIn</p>
+          </a>
+  
+
+  
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fkoji00.github.io%2fblog%2fagl%2f&amp;description=CES%202020%20%7c%20Automotive%20Grade%20Linux" target="_blank" rel="noopener" class="nav share-btn pinterest">
+          <i class="fab fa-pinterest-p"></i><p>&nbsp;Pinterest</p>
+        </a>
+  
+
+  
+        <a href="mailto:?subject=Check%20out%20this%20post%20by koji00&amp;body=https%3a%2f%2fkoji00.github.io%2fblog%2fagl%2f" target="_blank" class="nav share-btn email" data-proofer-ignore>
+          <i class="fas fa-envelope"></i><p>&nbsp;Email</p>
+        </a>
+  
+
+
+    </section>
+    
+  <a href="/blog/agl/" class="image featured">
+    
+      <img src="https://koji00.github.io/img/2020/agl/1.jpg" alt="">
+    
+  </a>
+
+
+    <div class="content">
+      <h2 id="automotive-grade-linux-agl-là-gì">Automotive Grade Linux (AGL) là gì?</h2>
+<ul>
+<li>
+<p>Automotive Grade Linux (AGL) là một dự án mã nguồn mở nhằm liên kết giữa nhà sản xuất, nhà cung cấp và các công ty công nghệ (có ông FPT nhà mình nữa) với mục tiêu đẩy nhanh quá trình phát triển và áp dụng nền tảng phần mềm hòa toàn <em>mở</em> cho xe hơi.</p>
+</li>
+<li>
+<p>Với việc lấy Linux làm cốt lõi, AGL đang phát triển một nền tảng <em>mở</em> để đưa ra các tiêu chuẩn công nghệ cho phép đẩy nhanh tốc độ phát triển tính năng và công nghệ mới trong tương lai.</p>
+</li>
+</ul>
+<blockquote>
+<p>Có thể thấy Windows chỉ chiếm thị phần lớn ở mảng máy tính cá nhân. Nếu chỉ tính chung thì Linux-based mới là ông lớn, nó có mặt khắp mọi nơi, như các bạn đã biết Android cũng có nhân Linux, các thiết bị IoT dùng Linux, server cũng chạy Linux là chủ yếu!</p>
+</blockquote>
+<p><img src="/img/2020/agl/2.jpg" alt="AGL" title="AGL"></p>
+<h2 id="các-nsx-tham-gia-agl">Các NSX tham gia AGL</h2>
+<p>Hiện tại các NSX như Mercedes-Benz, Ford, Volkswagen, Mazda, Toyota, Honda, Suzuki, v.v. đều lần lượt tham gia phát triển AGL cho thấy sự hấp dẫn của dự án mã nguồn mở này.</p>
+<blockquote>
+<p>&ldquo;Nền tảng AGL cho phép Toyota nhanh chóng tung ra một &lsquo;Hệ thống thông tin giải trí Toyota&rsquo; trên các dòng xe của chúng tôi, cung cấp cho khách hàng sự tương tác tốt hơn cùng những tính năng mới bắt kịp với tốc độ của sự phát triển bùng nổ về công nghệ. Sử dụng <em>mã nguồn mở</em> cho phép chúng tôi tập trung nguồn lực vào phát triển những tính năng sáng tạo hơn và mang chúng ra thị trường sơm hơn.&rdquo; – Keiji Yamamoto, Phó Chủ tịch điều hành, Connected Company of Toyota Motor Corporation</p>
+</blockquote>
+<p><img src="/img/2020/agl/4.jpg" alt="AGL" title="AGL"></p>
+<blockquote>
+<p>&ldquo;Rõ ràng sự sáng tạo đổi mới nhanh chóng và linh hoạt kiến trúc phần mềm là chìa khóa dẫn đến sự thành công trong kinh doanh, đó là lý do tại sao chúng tôi sử dụng AGL làm nền tảng cho OS mới của Mercedes-Benz. Sử dụng một hệ thống <em>mở</em> và được <em>tiêu chuẩn hóa</em> như AGL cho phép chúng tôi triển khai nhanh chóng nhiều công nghệ đi đến thương mại hóa như tự lái, phân tích dữ liệu và dự đoán tình huống cũng như các công nghệ tự động khác.&rdquo; – Thomas Wurdig, Trưởng phòng Onboard-System Architecture và IoT, Mercedes-Benz Vans</p>
+</blockquote>
+<h3 id="trang-chủ-dự-án-automotive-grade-linuxhttpswwwautomotivelinuxorg"><a href="https://www.automotivelinux.org/">Trang chủ Dự án Automotive Grade Linux</a></h3>
+
+    </div>
+    <footer>
+      <ul class="stats">
+  <li class="categories">
+    <ul>
+    
+      
+        
+          <li><a class="article-terms-link" href="/categories/foss/">foss</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/linux/">linux</a></li>
+        
+      
+    
+    </ul>
+  </li>
+  <li class="tags">
+    <ul>
+    
+      
+        
+          <li><a class="article-terms-link" href="/tags/ces2022/">ces2022</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/iot/">iot</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/vehicle/">vehicle</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/agl/">agl</a></li>
+        
+      
+    
+    </ul>
+  </li>
+</ul>
+
+    </footer>
+  </article>
+  
+  <article class="post">
+    
+<div>
+  <h2>sây sâm thing</h2>
+    <form id="post-js-form" class="post-new-comment" method="POST">
+      
+      <h5 class='post-reply-notice hidden'>
+        <span class='post-reply-arrow'></span><span class='post-reply-name'></span>
+      </h5>
+
+      
+      <input type="hidden" name="options[entryId]" value="5e651f754174f7fc45ce73ae019e0c89">
+      <input type='hidden' name='fields[replyThread]' value=''>
+      <input type='hidden' name='fields[replyID]' value=''>
+      <input type='hidden' name='fields[replyName]' value=''>
+
+      
+      <input required name='fields[name]' type='text' placeholder='Tên (bắt buộc)'>
+      <input name='fields[website]' type='text' placeholder='Website'>
+      <input required name='fields[email]' type='email' placeholder='Email (Required for Gravatar)'>
+      <textarea required name='fields[body]' placeholder='Bình luận ở đây, có thể dùng Markdown (search &#39;Markdown Cheat Sheet&#39;).' rows='10'></textarea>
+
+      
+      
+
+      
+      <p class='post-submit-notice'>
+        <strong class='post-submit-notice-text submit-success hidden'>Cảm ơn bạn, bình luận sẽ được hiển thị sau khi đã xét duyệt.</strong>
+        <strong class='post-submit-notice-text submit-failed hidden'>:( có lỗi rồi, bạn đã điền đầy đủ thông tin chưa?</strong>
+      </p>
+
+      
+      <input type='submit' value='Đăng' class='button'>
+      <input type='submit' value='Đã đăng' class='hidden button' disabled>
+      <input type='reset' value='Đặt lại' class='button'>
+    </form>
+</div>
+
+
+<div>
+  <h2>Bình luận</h2>
+
+  
+</div>
+
+  </article>
+
+
+  <div class="pagination">
+  
+    <a href="/blog/speedtest-cli/" class="button"><div class="previous"><div>Speedtest-CLI | Speedtest.net command line interface</div></div></a>
+  
+  
+    <a href="/blog/persepolis/" class="button"><div class="next"><div>Persepolis Download Manager | IDM alternative</div></div></a>
+  
+</div>
+
+
+      </main>
+      <section id="site-sidebar">
+  
+    <section id="recent-posts">
+      <header>
+        <h1>bài gần đây</h1>
+      </header>
+      
+      <article class="mini-post">
+        <section>
+          
+  <a href="/blog/spicetify-cli/" class="image featured">
+    
+      <img src="https://koji00.github.io/img/2020/spicetify/spicetify1.jpg" alt="">
+    
+  </a>
+
+
+        </section>
+        <header>
+          <h2><a href="/blog/spicetify-cli/">spicetify-cli | Thay đổi giao diện Spotify của bạn</a></h2>
+          <time class="published" datetime="">2020-04-30</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          
+  <a href="/blog/efibootmgr/" class="image featured">
+    
+      <img src="https://koji00.github.io/img/2020/efibootmgr1.jpg" alt="">
+    
+  </a>
+
+
+        </section>
+        <header>
+          <h2><a href="/blog/efibootmgr/">efibootmgr - Trình quản lí UEFI BOOT ENTRY trên Linux</a></h2>
+          <time class="published" datetime="">2020-03-05</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          
+  <a href="/blog/lbry/" class="image featured">
+    
+      <img src="https://koji00.github.io/img/2020/lbry.jpeg" alt="">
+    
+  </a>
+
+
+        </section>
+        <header>
+          <h2><a href="/blog/lbry/">LBRY - Sự thay thế Youtube???</a></h2>
+          <time class="published" datetime="">2020-02-15</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          
+  <a href="/blog/persepolis/" class="image featured">
+    
+      <img src="https://koji00.github.io/img/2020/persepolis.png" alt="">
+    
+  </a>
+
+
+        </section>
+        <header>
+          <h2><a href="/blog/persepolis/">Persepolis Download Manager | IDM alternative</a></h2>
+          <time class="published" datetime="">2020-01-10</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          
+  <a href="/blog/agl/" class="image featured">
+    
+      <img src="https://koji00.github.io/img/2020/agl/1.jpg" alt="">
+    
+  </a>
+
+
+        </section>
+        <header>
+          <h2><a href="/blog/agl/">CES 2020 | Automotive Grade Linux</a></h2>
+          <time class="published" datetime="">2020-01-06</time>
+        </header>
+      </article>
+      
+      
+        <footer>
+          <a href="/blog/" class="button">xem thêm</a>
+        </footer>
+      
+    </section>
+  
+
+  
+    
+      <section id="categories">
+        <header>
+          <h1><a href="/categories">Categories</a></h1>
+        </header>
+        <ul>
+          
+            
+          
+          
+          <li>
+            
+              <a href="/categories/linux/">linux<span class="count">7</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/foss/">foss<span class="count">5</span></a>
+            
+          
+          </li>
+        </ul>
+      </section>
+    
+  
+
+  
+    <section id="mini-bio">
+      <header>
+        <h1>About</h1>
+      </header>
+      <p>bờ lốc này chỉ để viết linh tinh... . powered by Hugo and Netlify.</p>
+      <footer>
+        <a href="/about" class="button">Xem thêm</a>
+      </footer>
+    </section>
+  
+</section>
+
+      <footer id="site-footer">
+  
+      <ul class="socnet-icons">
+        
+
+        <li><a href="//github.com/streetsamurai00mi" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+<li><a href="//gitlab.com/streetsamurai00mi" target="_blank" rel="noopener" title="GitLab" class="fab fa-gitlab"></a></li>
+
+<li><a href="//bitbucket.com/streetsamurai00mi" target="_blank" rel="noopener" title="Bitbucket" class="fab fa-bitbucket"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//facebook.com/iam.minhnc" target="_blank" rel="noopener" title="Facebook" class="fab fa-facebook"></a></li>
+<li><a href="//reddit.com/user/streetsamurai00mi" target="_blank" rel="noopener" title="Reddit" class="fab fa-reddit"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//telegram.me/streetsamurai00mi" target="_blank" rel="noopener" title="telegram" class="fab fa-telegram"></a></li>
+
+
+
+
+
+
+<li><a href="mailto:iam.minhnc@outlook.com" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+  
+  <p class="copyright">
+    
+      &copy; 2020
+      
+        koji00 - NCMinh
+      
+    . <br>
+    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.73.0' target='_blank' rel='noopener'>Hugo</a>
+  </p>
+</footer>
+<a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
+
+      <script src="/js/highlight.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script><script src="/js/bundle.min.3212285d5a5e70f02bbccfa7a9b1e8e5d1764f21bbf212d2d32dd50bbf3f2eb0.js" integrity="sha256-MhIoXVpecPArvM&#43;nqbHo5dF2TyG78hLS0y3VC78/LrA="></script>
+    <script src="/js/add-on.js"></script>
+    </div>
+  </body>
+</html>

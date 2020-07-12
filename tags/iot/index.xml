@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>iot on koji00 - NCMinh</title>
+    <link>https://koji00.github.io/tags/iot/</link>
+    <description>Recent content in iot on koji00 - NCMinh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 06 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://koji00.github.io/tags/iot/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CES 2020 | Automotive Grade Linux</title>
+      <link>https://koji00.github.io/blog/agl/</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://koji00.github.io/blog/agl/</guid>
+      <description>Automotive Grade Linux (AGL) là gì?   Automotive Grade Linux (AGL) là một dự án mã nguồn mở nhằm liên kết giữa nhà sản xuất, nhà cung cấp và các công ty công nghệ (có ông FPT nhà mình nữa) với mục tiêu đẩy nhanh quá trình phát triển và áp dụng nền tảng phần mềm hòa toàn mở cho xe hơi.
+  Với việc lấy Linux làm cốt lõi, AGL đang phát triển một nền tảng mở để đưa ra các tiêu chuẩn công nghệ cho phép đẩy nhanh tốc độ phát triển tính năng và công nghệ mới trong tương lai.</description>
+    </item>
+    
+  </channel>
+</rss>

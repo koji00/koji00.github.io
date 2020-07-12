@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>uefi on koji00 - NCMinh</title>
+    <link>https://koji00.github.io/tags/uefi/</link>
+    <description>Recent content in uefi on koji00 - NCMinh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 05 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://koji00.github.io/tags/uefi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>efibootmgr - Trình quản lí UEFI BOOT ENTRY trên Linux</title>
+      <link>https://koji00.github.io/blog/efibootmgr/</link>
+      <pubDate>Thu, 05 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://koji00.github.io/blog/efibootmgr/</guid>
+      <description>efibootmgr có thể được sử dụng cực dễ chỉ bằng vài dòng lệnh
+Repo: https://github.com/rhboot/efibootmgr
+Cách sử dụng:   Tất nhiên là phải cài đặt rồi (nếu chưa có sẵn):
+ Ví dụ trên Arch based: pacman -S efibootmgr    Xem manual nào:
+  efibootmgr -h   hoặc chi tiết hơn: man efibootmgr
+    Xem thông tin chi tiết: efibootmgr -v
+  Thêm entry:</description>
+    </item>
+    
+  </channel>
+</rss>

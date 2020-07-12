@@ -1,0 +1,55 @@
+[{
+    "title": "spicetify-cli | Thay đổi giao diện Spotify của bạn",
+    "date": "2020-04-30",
+    "description": "Thay đổi giao diện Spotify trên Windows, MacOS và Linux",
+    "body": "",
+    "ref": "/blog/spicetify-cli/"
+  },{
+    "title": "efibootmgr - Trình quản lí UEFI BOOT ENTRY trên Linux",
+    "date": "2020-03-05",
+    "description": "efibootmgr có thể được sử dụng cực dễ chỉ bằng vài dòng lệnh",
+    "body": "efibootmgr có thể được sử dụng cực dễ chỉ bằng vài dòng lệnh\nRepo: https://github.com/rhboot/efibootmgr\nCách sử dụng:   Tất nhiên là phải cài đặt rồi (nếu chưa có sẵn):\n Ví dụ trên Arch based: pacman -S efibootmgr    Xem manual nào:\n  efibootmgr -h   hoặc chi tiết hơn: man efibootmgr\n    Xem thông tin chi tiết: efibootmgr -v\n  Thêm entry:\n sudo efibootmgr -c -d \u0026lt;disk\u0026gt; -p \u0026lt;partition number\u0026gt; -L \u0026quot;tên\u0026quot; -l 'đường dẫn đến .efi' ví dụ phân vùng EFI là /dev/sdb1: sudo efibootmgr -c -d /dev/sdb -p 1 -L \u0026quot;rEFInd\u0026quot; -l '\\EFI\\refind\\refind_x64.efi' Lưu ý dùng \\ thay cho / trong phần đường dẫn.    Xóa entry:\n sudo efibootmgr -b \u0026lt;số của entry\u0026gt; -B ví dụ cần xóa Boot0002*: sudo efibootmgr -b 2 -B    Thay đổi thứ tự boot: ví dụ thứ tự hiện tại là 0001,0002,0003, bạn muốn đổi thành 0003,0001,0002: sudo efibootmgr -o 3,1,2\n  Một số chức năng khác mọi người tìm hiểu thêm nhé!\n  ",
+    "ref": "/blog/efibootmgr/"
+  },{
+    "title": "LBRY - Sự thay thế Youtube???",
+    "date": "2020-02-15",
+    "description": "LBRY đang trở thành một đối thủ đáng lưu ý của Youtube",
+    "body": " Nội dung chính lấy từ video của Bryan Lunduke: LBRY - the viable YouTube alternative in 2020\n Vấn đề kiểm duyệt   Đôi khi Youtube kiểm duyệt và xóa hoàn toàn videos hoặc cả channel. Trường hợp khác là video bị ẩn khỏi tìm kiếm, v.v\n  LBRY không có sự kiểm duyệt này (Vừa hay vừa dở)\n  LBRY-Team không thể xóa nội dung được đăng lên LBRY (tính chất decentralized, block-chain). Dù muốn hay không, điều nảy dẫn đến sự đa dạng về thể loại nội dung, góc nhìn, v.v trên nền tảng này\n  Rõ ràng đây là một con dao hai lưỡi. Nó có thể không an toàn cho trẻ em nhưng nó cũng có nghĩa là bạn hoàn toàn tự do sáng tạo nội dung bất chấp LBRY-Team. Nghe khá là \u0026lsquo;hoang dã\u0026rsquo; nhỉ ^^\nVấn đề quảng cáo và kiếm tiền  Số tiền videos kiếm được không thực sự nhiều Vấn đề bảo mật về cách theo dõi và sử dụng dữ liệu người xem Publishers không thật sự kiểm soát hoàn toàn được quảng cáo xuất hiện trên videos của mình  LBRY không có những vấn đề trên vì\n nó không hề có quảng cáo Thay thế QC chính là dùng TIỀN ẢO (LBRY Credits - LBC) và cơ chế \u0026lsquo;tipping\u0026rsquo;  Youtube là Closed Source - LBRY là Open Source Có một sự khác biệt rất lớn giữa Youtube (closed source) và LBRY (open source)\nVideos trên Youtube không thể tải xuống và sử dụng dễ dàng (dùng phần mềm khác can thiệp) nhưng LBRY thì khác. Nó được thiết kế để người dùng lưu lại và xem mọi lúc họ muốn\nLựa chọn giữa \u0026lsquo;closed\u0026rsquo; và \u0026lsquo;open, freedom\u0026rsquo; không phải vấn đề gì lớn với đa số người dùng nhưng nó quan trọng với mình, và chắc rằng không chỉ có mỗi mình ^^.\nTrong 2020, LBRY có thể chưa đủ để thay thế Youtube đối với \u0026lsquo;Youtubers\u0026rsquo; ở mọi thể loại nội dung, nhưng mình hy vọng đó sẽ là một tương lai không xa.\n Bạn nào muốn đăng ký LBRY thì dùng link này cùng lấy thưởng LBC nha: https://lbry.tv/$/invite/@iam.minhnc:e\n ",
+    "ref": "/blog/lbry/"
+  },{
+    "title": "Persepolis Download Manager | IDM alternative",
+    "date": "2020-01-10",
+    "description": "Persepolis là một Download Manager & là GUI cho aria2. Persepolis được viết bằng Python và là Free Open Source Software.",
+    "body": "Persepolis là gì? Persepolis là một Download Manager \u0026amp; là GUI cho aria2. Persepolis được viết bằng Python và là Free Open Source Software.\nHỗ trợ: GNU/Linux Distributions, BSDs, macOS và Microsoft Windows.\nFeutures:  GUI cho aria2 Tải về đa luồng Tải theo lịch Tải theo hàng chờ Tìm và tải video từ Youtube, Vimeo, DailyMotion, v.v (dựa trên youtube-dl) Có tiện ích tích hợp cho trình duyệt  ",
+    "ref": "/blog/persepolis/"
+  },{
+    "title": "CES 2020 | Automotive Grade Linux",
+    "date": "2020-01-06",
+    "description": "Mazda CX-30, Toyota RAV4, 20+ demos dựa trên Automotive Grade Linux đã xuất hiện tại CES 2020",
+    "body": "Automotive Grade Linux (AGL) là gì?   Automotive Grade Linux (AGL) là một dự án mã nguồn mở nhằm liên kết giữa nhà sản xuất, nhà cung cấp và các công ty công nghệ (có ông FPT nhà mình nữa) với mục tiêu đẩy nhanh quá trình phát triển và áp dụng nền tảng phần mềm hòa toàn mở cho xe hơi.\n  Với việc lấy Linux làm cốt lõi, AGL đang phát triển một nền tảng mở để đưa ra các tiêu chuẩn công nghệ cho phép đẩy nhanh tốc độ phát triển tính năng và công nghệ mới trong tương lai.\n   Có thể thấy Windows chỉ chiếm thị phần lớn ở mảng máy tính cá nhân. Nếu chỉ tính chung thì Linux-based mới là ông lớn, nó có mặt khắp mọi nơi, như các bạn đã biết Android cũng có nhân Linux, các thiết bị IoT dùng Linux, server cũng chạy Linux là chủ yếu!\n Các NSX tham gia AGL Hiện tại các NSX như Mercedes-Benz, Ford, Volkswagen, Mazda, Toyota, Honda, Suzuki, v.v. đều lần lượt tham gia phát triển AGL cho thấy sự hấp dẫn của dự án mã nguồn mở này.\n \u0026ldquo;Nền tảng AGL cho phép Toyota nhanh chóng tung ra một \u0026lsquo;Hệ thống thông tin giải trí Toyota\u0026rsquo; trên các dòng xe của chúng tôi, cung cấp cho khách hàng sự tương tác tốt hơn cùng những tính năng mới bắt kịp với tốc độ của sự phát triển bùng nổ về công nghệ. Sử dụng mã nguồn mở cho phép chúng tôi tập trung nguồn lực vào phát triển những tính năng sáng tạo hơn và mang chúng ra thị trường sơm hơn.\u0026rdquo; – Keiji Yamamoto, Phó Chủ tịch điều hành, Connected Company of Toyota Motor Corporation\n  \u0026ldquo;Rõ ràng sự sáng tạo đổi mới nhanh chóng và linh hoạt kiến trúc phần mềm là chìa khóa dẫn đến sự thành công trong kinh doanh, đó là lý do tại sao chúng tôi sử dụng AGL làm nền tảng cho OS mới của Mercedes-Benz. Sử dụng một hệ thống mở và được tiêu chuẩn hóa như AGL cho phép chúng tôi triển khai nhanh chóng nhiều công nghệ đi đến thương mại hóa như tự lái, phân tích dữ liệu và dự đoán tình huống cũng như các công nghệ tự động khác.\u0026rdquo; – Thomas Wurdig, Trưởng phòng Onboard-System Architecture và IoT, Mercedes-Benz Vans\n Trang chủ Dự án Automotive Grade Linux ",
+    "ref": "/blog/agl/"
+  },{
+    "title": "Speedtest-CLI | Speedtest.net command line interface",
+    "date": "2020-01-01",
+    "description": "Hôm nay mình sẽ giới thiệu giao diện dòng lệnh của công cụ này speedtest-cli",
+    "body": "Chắc hẳn mọi người đã quá quen với Speedtest.net khi muốn kiểm tra tốc độ Internet rồi nhỉ?\nHôm nay mình sẽ giới thiệu giao diện dòng lệnh của công cụ này speedtest-cli\nYêu cầu: Cần có python \u0026gt;2.4\nCài đặt:  với pip: pip install speedtest-cli với git: git clone https://github.com/sivel/speedtest-cli.git cd speedtest-cli python setup.py install    Gợi ý: nên tìm hiểu thêm về python, pip, các lệnh với file, thư mục và git\n Sử dụng:  Xem các optional arguments: speedtest-cli -h Sử dụng arguments bạn cần, ví dụ: speedtest-cli --bytes --secure (đo bằng Mbyte/s và dùng HTTPS thay cho HTTP)   Gợi ý: nên tìm hiểu thêm về arguments khi dùng command trên linux\n Repo: https://github.com/sivel/speedtest-cli\n",
+    "ref": "/blog/speedtest-cli/"
+  },{
+    "title": "Viết tắt command trên Linux",
+    "date": "2019-12-28",
+    "description": "Viết tắt command trên Linux? Bạn không đọc nhầm đâu",
+    "body": "Viết tắt command trên Linux? Bạn không đọc nhầm đâu Đã bao giờ thử dùng Linux chưa? Bạn thấy các câu lệnh thật dài dòng khó nhớ?\nMình sẽ hướng dẫn cách viết tắt các câu lệnh dài (hoặc ngắn nếu thích :D)\n  Đầu tiên bạn cần mở một text editor (vim/nano/vscodium/gedit/kate/emacs/v.v.) và truy cập đến file .bashrc (file cấu hình của bash, nếu dùng bash shell) hoặc .zshrc (zsh shell) trong thư mục home (chính xác là /home/username/).\n Ví dụ: $ nano /home/oknoodles/.zshrc Gợi ý: tìm hiểu thêm shell là gì / cấu trúc thư mục Linux (Unix)    Thêm dòng sau vào:\n alias lệnh_tắt='lệnh_gốc' Ví dụ: alias spt='speedtest-cli --bytes --secure'    Lưu lại và mở shell mới (mở terminal mới)\n  Trải nghiệm thôi \u0026lt;3\u0026lt;3\n  Gợi ý: Tìm hiểu thêm về bash: www.gnu.org/software/bash/manual/bash.pdf\n",
+    "ref": "/blog/alias/"
+  },{
+    "title": "VSCodium [Visual Studio Code alternative]",
+    "date": "2019-12-26",
+    "description": "Visual Studio Code tuy là mã nguồn mở nhưng bản phân phối của MS lại thu thập dữ liệu người dùng. Nếu bạn quan tâm đến vấn đề này thì VSCodium là sự thay thế hoàn hảo",
+    "body": "VSCodium là một repository bao gồm các scripts để build VS Code, tự động loại bỏ branding/telemetry/licensing/tracking của Microsoft.\nTại sao không tạo cho mình một bản \u0026ldquo;clean\u0026rdquo; build, mà không có sự nhúng tay của Microsoft nhỉ.\nRepo: https://github.com/VSCodium/vscodium\n When we speak of \u0026ldquo;free software\u0026rdquo;, we\u0026rsquo;re talking about freedom, not price.\n ",
+    "ref": "/blog/vscodium/"
+  },{
+    "title": "tui là ai?",
+    "date": "2018-05-31",
+    "description": "bờ lốc này chỉ để viết linh tinh...",
+    "body": "Tui cũng không biết nữa (~‾▿‾)~ ¯_(ツ)_/¯ ",
+    "ref": "/about/"
+  }]

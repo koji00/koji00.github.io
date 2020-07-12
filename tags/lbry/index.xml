@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lbry on koji00 - NCMinh</title>
+    <link>https://koji00.github.io/tags/lbry/</link>
+    <description>Recent content in lbry on koji00 - NCMinh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 15 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://koji00.github.io/tags/lbry/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LBRY - Sự thay thế Youtube???</title>
+      <link>https://koji00.github.io/blog/lbry/</link>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://koji00.github.io/blog/lbry/</guid>
+      <description>Nội dung chính lấy từ video của Bryan Lunduke: LBRY - the viable YouTube alternative in 2020
+ Vấn đề kiểm duyệt   Đôi khi Youtube kiểm duyệt và xóa hoàn toàn videos hoặc cả channel. Trường hợp khác là video bị ẩn khỏi tìm kiếm, v.v
+  LBRY không có sự kiểm duyệt này (Vừa hay vừa dở)
+  LBRY-Team không thể xóa nội dung được đăng lên LBRY (tính chất decentralized, block-chain).</description>
+    </item>
+    
+  </channel>
+</rss>

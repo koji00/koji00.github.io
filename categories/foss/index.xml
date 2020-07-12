@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>foss on koji00 - NCMinh</title>
+    <link>https://koji00.github.io/categories/foss/</link>
+    <description>Recent content in foss on koji00 - NCMinh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 30 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://koji00.github.io/categories/foss/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>spicetify-cli | Thay đổi giao diện Spotify của bạn</title>
+      <link>https://koji00.github.io/blog/spicetify-cli/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://koji00.github.io/blog/spicetify-cli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LBRY - Sự thay thế Youtube???</title>
+      <link>https://koji00.github.io/blog/lbry/</link>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://koji00.github.io/blog/lbry/</guid>
+      <description>Nội dung chính lấy từ video của Bryan Lunduke: LBRY - the viable YouTube alternative in 2020
+ Vấn đề kiểm duyệt   Đôi khi Youtube kiểm duyệt và xóa hoàn toàn videos hoặc cả channel. Trường hợp khác là video bị ẩn khỏi tìm kiếm, v.v
+  LBRY không có sự kiểm duyệt này (Vừa hay vừa dở)
+  LBRY-Team không thể xóa nội dung được đăng lên LBRY (tính chất decentralized, block-chain).</description>
+    </item>
+    
+    <item>
+      <title>Persepolis Download Manager | IDM alternative</title>
+      <link>https://koji00.github.io/blog/persepolis/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://koji00.github.io/blog/persepolis/</guid>
+      <description>Persepolis là gì? Persepolis là một Download Manager &amp;amp; là GUI cho aria2. Persepolis được viết bằng Python và là Free Open Source Software.
+Hỗ trợ: GNU/Linux Distributions, BSDs, macOS và Microsoft Windows.
+Feutures:  GUI cho aria2 Tải về đa luồng Tải theo lịch Tải theo hàng chờ Tìm và tải video từ Youtube, Vimeo, DailyMotion, v.v (dựa trên youtube-dl) Có tiện ích tích hợp cho trình duyệt  </description>
+    </item>
+    
+    <item>
+      <title>CES 2020 | Automotive Grade Linux</title>
+      <link>https://koji00.github.io/blog/agl/</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://koji00.github.io/blog/agl/</guid>
+      <description>Automotive Grade Linux (AGL) là gì?   Automotive Grade Linux (AGL) là một dự án mã nguồn mở nhằm liên kết giữa nhà sản xuất, nhà cung cấp và các công ty công nghệ (có ông FPT nhà mình nữa) với mục tiêu đẩy nhanh quá trình phát triển và áp dụng nền tảng phần mềm hòa toàn mở cho xe hơi.
+  Với việc lấy Linux làm cốt lõi, AGL đang phát triển một nền tảng mở để đưa ra các tiêu chuẩn công nghệ cho phép đẩy nhanh tốc độ phát triển tính năng và công nghệ mới trong tương lai.</description>
+    </item>
+    
+    <item>
+      <title>VSCodium [Visual Studio Code alternative]</title>
+      <link>https://koji00.github.io/blog/vscodium/</link>
+      <pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://koji00.github.io/blog/vscodium/</guid>
+      <description>VSCodium là một repository bao gồm các scripts để build VS Code, tự động loại bỏ branding/telemetry/licensing/tracking của Microsoft.
+Tại sao không tạo cho mình một bản &amp;ldquo;clean&amp;rdquo; build, mà không có sự nhúng tay của Microsoft nhỉ.
+Repo: https://github.com/VSCodium/vscodium
+ When we speak of &amp;ldquo;free software&amp;rdquo;, we&amp;rsquo;re talking about freedom, not price.
+ </description>
+    </item>
+    
+  </channel>
+</rss>
